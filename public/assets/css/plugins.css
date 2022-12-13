@@ -1,0 +1,85 @@
+@import url('main.css');
+@import url('structure.css');
+
+/*
+    Importing highlight.js CSS code 
+
+    Just for demo purpose only
+	
+	@Note:-  monokai-sublime.css stylesheet is for highliting the code;
+
+*/
+
+@import '../../plugins/highlight/styles/monokai-sublime.css';
+.arab {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.nav-tabs .nav-link {
+    font-size: 16px!important;
+}
+
+
+/* .duble {
+    display: none;
+} */
+
+hr {
+    border-top: 1px solid #bb760c;
+}
+
+.save {
+    background: #bb760c;
+    color: white;
+}
+
+.close-bill {
+    width: -webkit-fill-available;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-top: 5px!important;
+    font-weight: 500!important;
+    font-size: initial!important;
+    color: #0e1726!important;
+}
+
+.select2-container .select2-selection--single {
+    height: 38px!important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: black transparent transparent transparent!important;
+    top: 75%!important;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-dropdown,
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #bfc9d4!important;
+    color: #0e1726;
+    font-size: initial;
+    font-weight: 500;
+}
+
+.form-form .form-form-wrap form .field-wrapper svg.feather-eye,
+.form-form .form-form-wrap form .field-wrapper svg:not(.feather-eye) {
+    color: black!important;
+    fill: #c89c2c;
+}
+
+.company-logo {
+    width: 95%!important;
+    height: auto!important;
+}
+.admn
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e1726;
+    vertical-align: top;
+}
+#navbarDropdown:hover
+{
+    color: #bb760c;
+}
